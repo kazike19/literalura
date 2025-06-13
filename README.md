@@ -91,7 +91,7 @@ Una vez que la aplicación se inicie (verás logs de Spring Boot), el menú prin
 
 Puedes ver una captura de pantalla del menú en el archivo `Menu.png` que se encuentra en la raíz del repositorio.
 
-![Menu](https://github.com/kazike19/literalura/blob/master/imag/Menu.png)
+![Menu](https://github.com/kazike19/literalura/tree/master/img))
 
 **Elige una opción:**
 
