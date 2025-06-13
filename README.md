@@ -1,10 +1,10 @@
 # LiterAlura 📚
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-
 
 Una aplicación de consola interactiva construida con **Spring Boot** que permite a los usuarios buscar y consultar información sobre libros y autores utilizando la **API de Gutendex**. Con LiterAlura, puedes explorar una vasta colección de obras literarias, registrar tus favoritos, y obtener estadísticas interesantes directamente desde tu terminal.
 
@@ -61,31 +61,37 @@ Asegúrate de tener instalado lo siguiente:
     spring.jpa.properties.hibernate.format_sql=true # Formatea el SQL para mejor legibilidad
     ```
 
+    > ### Nota: Realizar esto una vez clonado el repositorio
+
 ## Instalación y Ejecución
 
-###1. **Clonar el Repositorio**
+### 1. **Clonar el Repositorio**
 
 ```bash
-git clone https://github.com/kazike19/LiterAlura.git
-cd LiterAlura```
+git clone https://github.com/kazike19/literalura.git
+cd LiterAlura
+```
 
 ### 2. **Construir el Proyecto**
 ```bash
-mvn clean install```
+mvn clean install
+```
 
 Este comando descargará las dependencias necesarias y construirá el proyecto.
 
 ### 3. **Ejecutar la Aplicación**
 
 ```bash
-mvn spring-boot:run```
+mvn spring-boot:run
+```
 
 Una vez que la aplicación se inicie (verás logs de Spring Boot), el menú principal de LiterAlura aparecerá en la consola, listo para que interactúes con él.
 
 ## 📖 Uso
 
 Puedes ver una captura de pantalla del menú en el archivo `Menu.png` que se encuentra en la raíz del repositorio.
-![Menu](https://github.com/kazike19/LiterAlura/blob/master/imagenes/Menu.png)
+
+![Menu](https://github.com/kazike19/literalura/blob/master/imag/Menu.png)
 
 **Elige una opción:**
 
